@@ -58,3 +58,51 @@
 This overview of DHCP highlights its importance in network management, demonstrating how it streamlines the process of assigning IP addresses and organizing network devices efficiently.
 
 </details>
+
+## DNS Overview and Configuration
+
+<details>
+<summary><strong>What is DNS?</strong></summary>
+
+DNS makes the internet user-friendly by allowing us to use memorable domain names (like "google.com") instead of numerical IP addresses to access websites and network services.
+
+</details>
+
+<details>
+<summary><strong>Configuring DNS Servers</strong></summary>
+
+You can change your computer's DNS server settings to improve internet connectivity or for troubleshooting. For example, using Google's public DNS servers (8.8.8.8 and 8.8.4.4) is a common practice for faster and more reliable internet access.
+
+</details>
+
+<details>
+<summary><strong>DNS in Local Networks</strong></summary>
+
+Within company networks, DNS servers play a crucial role in directing traffic to the correct local or internet resources, allowing users to access computers and servers using domain names instead of IP addresses.
+
+</details>
+
+<details>
+<summary><strong>DNS Functionality and Active Directory</strong></summary>
+
+DNS supports essential network services like Remote Desktop Protocol (RDP), enabling users to connect to other computers within the network using names instead of IP addresses. In Active Directory environments, DNS facilitates the automatic resolution of computer names to IP addresses, making network management smoother and more intuitive.
+
+</details>
+
+<details>
+<summary><strong>Adding Devices to DNS</strong></summary>
+
+For network devices like printers, it might be necessary to manually add DNS records (A records) to ensure they can be accessed by name, providing a seamless user experience across the network.
+
+</details>
+
+<details>
+<summary><strong>Troubleshooting and Maintenance</strong></summary>
+
+Managing DNS includes removing duplicate records and ensuring the DNS cache is cleared (flushed) after changes, to prevent connectivity issues and ensure the network reflects the most current configurations.
+
+### Key Concepts:
+- **Flushing DNS:** This process clears the DNS cache, removing outdated records and ensuring devices connect to the correct network resources.
+- **Reverse Lookup Zones:** These are used for identifying which domain names are associated with a given IP address, aiding in troubleshooting DNS issues.
+
+</details>
